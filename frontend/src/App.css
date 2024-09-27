@@ -1,0 +1,20 @@
+.triangle-topright::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  top: 0;
+  right: 0;
+  border-top: 121px solid;
+  border-left: 100px solid transparent;
+}
+.triangle-bottomright::after {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 0;
+  bottom: 0;
+  right: 0;
+  border-bottom: 121px solid;
+  border-left: 100px solid transparent;
+}
