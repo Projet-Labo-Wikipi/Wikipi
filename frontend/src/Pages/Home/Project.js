@@ -1,9 +1,9 @@
 import React from "react";
 import { ThemeState } from "../../Context/UseContext";
-import logo from "../../images/Logo_wikiPi_panda.png";
-import LinkedInIcon from "@mui/icons-material/LinkedIn";
-import XIcon from "@mui/icons-material/X";
-import FacebookIcon from "@mui/icons-material/Facebook";
+// import logo from "../../images/Logo_wikiPi_panda.png";
+// import LinkedInIcon from "@mui/icons-material/LinkedIn";
+// import XIcon from "@mui/icons-material/X";
+// import FacebookIcon from "@mui/icons-material/Facebook";
 
 function Project() {
   const {

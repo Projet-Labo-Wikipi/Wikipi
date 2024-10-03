@@ -1,10 +1,10 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import logoIPI from "../../../images/Logo_wikiPi_panda.png";
-import LightModeIcon from "@mui/icons-material/LightMode";
-import Search from "../Search/Search";
+// import LightModeIcon from "@mui/icons-material/LightMode";
+// import Search from "../Search/Search";
 import User from "../User/User";
-import NightsStayIcon from "@mui/icons-material/NightsStay";
+// import NightsStayIcon from "@mui/icons-material/NightsStay";
 import { ThemeState } from "../../../Context/UseContext";
 import MapsUgcOutlinedIcon from "@mui/icons-material/MapsUgcOutlined";
 import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
@@ -14,13 +14,13 @@ import { styled } from "@mui/material";
 function Navigation() {
   const {
     state: { theme },
-    dispatch,
+    // dispatch,
   } = ThemeState();
 
-  const toggleTheme = () => {
-    const action = { type: "TOGGLE_THEME" };
-    dispatch(action);
-  };
+  // const toggleTheme = () => {
+  //   const action = { type: "TOGGLE_THEME" };
+  //   dispatch(action);
+  // };
 
   const StyledBadge = styled(Badge)(({ theme }) => ({
     "& .MuiBadge-badge": {
