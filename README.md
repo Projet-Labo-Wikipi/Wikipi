@@ -90,7 +90,7 @@ Insérer vous via cli dans le dossier correspondant pour effectuer les installat
 
 ### 3. Installation Tailwind CSS
 
-> npm installl -D tailwindcss
+> npm install -D tailwindcss
 
 ### 4. Installation de Material UI
 
