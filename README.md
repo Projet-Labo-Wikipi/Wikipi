@@ -112,7 +112,7 @@ Dans votre cli effectuez les commandes suivantes :
 
 Exécuter la commande suivante dans le terminal du projet Laravel.
 
-> cp .env.exemple .env
+> cp .env.example .env
 
 Et modifier les lignes suivantes dans le fichier .env :
 
