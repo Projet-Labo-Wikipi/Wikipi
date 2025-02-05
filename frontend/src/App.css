@@ -18,3 +18,9 @@
   border-bottom: 121px solid;
   border-left: 100px solid transparent;
 }
+.displayNoneNewProjectInput {
+  display: none;
+}
+.displayNewProjectInput {
+  display: block;
+}

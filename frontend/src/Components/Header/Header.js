@@ -9,12 +9,8 @@ function Header() {
     state: { theme },
   } = ThemeState();
   return (
-    <div>
-      <nav
-        className={`${
-          theme === "light" ? "bg-white" : "bg-252525"
-        } border-b-FFEDED border-b-2 mr-2 ml-2`}
-      >
+    <div className={`${theme === "light" ? "bg-white" : "bg-252525"}`}>
+      <nav className=" border-b-FFEDED border-b-2 mr-2 ml-2">
         <Navigation />
         <BurgerMenu id="BurgerMenu" />
       </nav>

@@ -34,7 +34,6 @@ function SearchBar({ setData }) {
         theme === "light" ? "bg-F3F4F6 border-gray-400 border" : "bg-2c2c2c"
       } w-full pl-8 flex items-center rounded-lg h-54px`}
     >
-      <SearchIcon className="absolute left-1 text-gray-400" />
       <input
         value={input}
         onChange={(e) => handleChange(e.target.value)}
@@ -43,10 +42,14 @@ function SearchBar({ setData }) {
           theme === "light" ? "bg-F3F4F6 text-black" : "bg-2c2c2c text-white"
         } text-sm focus:outline-none w-full h-54px`}
       />
-      <button className="h-full bg-C81E1E p-1 rounded-r-lg" type="submit" value="Submit">
+      <button
+        className="h-full bg-black p-1 rounded-r-lg"
+        type="submit"
+        value="Submit"
+      >
         <SearchIcon
           className={`${
-            theme === "light" ? "bg-C81E1E text-white" : "text-808080 bg-black"
+            theme === "light" ? " text-white" : "text-808080 bg-black"
           } text-30px h-inherit cursor-pointer w-full pl-1 pr-1 rounded-r-lg`}
         />
       </button>
