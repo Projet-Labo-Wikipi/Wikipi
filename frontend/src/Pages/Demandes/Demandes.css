@@ -1,0 +1,79 @@
+/* Styles de base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0px;
+    padding: 20px;
+  }
+ 
+  .container {
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 2px dotted #d6d9df;
+    border-radius : 15px ;
+  }
+
+  h1 {
+    font-size:30px;
+    margin-bottom: 20px;
+  }
+ 
+  /* Styles pour la table */
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+ 
+  .table th,
+  .table td {
+    padding: 10px 15px;
+    color :#637381;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+ 
+  .table th {
+    background-color: #f3f3f3;
+    color : #111928;
+    font-weight: bold;
+  }
+ 
+  .table tr:hover {
+    background-color: #f3f3f3;
+  }
+  .table tr {
+    background-color: #f9f9f9;
+    margin-bottom:30px;
+  }
+  .table td {
+    background-color: #f9f9f9;
+    margin-bottom:30px;
+  }
+  /* Styles pour les badges */
+  .badge {
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+  }
+ 
+  .badge-validation {
+    color :#3758F9 ;
+    background-color: rgba(67, 97, 255,0.1);
+  }
+ 
+  .badge-suppression {
+    color :#E10E0E ;
+    background-color: #FEEBEB;
+  }
+ 
+  .badge-modification {
+    color :#3758F9 ;
+    background-color: rgba(67, 97, 255,0.1);
+  }
+ 
